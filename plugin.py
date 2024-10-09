@@ -417,7 +417,8 @@ def isNumber(s):
         
 def numStr(s):
     try:
-        return str(s).replace('.','')
+        intValue = int(s)
+        return str(intValue)
     except:
         return "0"
 
